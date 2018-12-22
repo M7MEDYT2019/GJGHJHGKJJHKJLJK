@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' %help','Venom Security','Have Fun !',' Iam Here For Games',' %help'];
+    var setGame = [' %help','Venom Security','نحن الافضل Have Fun',' Venom Rewards',' %help'];
     var i = -1;
     var j = 0;
     setInterval(function (){
