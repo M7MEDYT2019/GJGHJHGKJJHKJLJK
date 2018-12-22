@@ -1273,4 +1273,4 @@ client.on("message", (message) => {
     }
     });
 
-client.login('BOT_TOKEN');
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
